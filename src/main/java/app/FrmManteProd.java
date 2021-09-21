@@ -62,14 +62,14 @@ public class FrmManteProd extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		JButton btnNewButton = new JButton("Registrar");
-		btnNewButton.addActionListener(new ActionListener() {
+		JButton btnRegistrar = new JButton("Registrar");
+		btnRegistrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				registrar();
 			}
 		});
-		btnNewButton.setBounds(324, 29, 89, 23);
-		contentPane.add(btnNewButton);
+		btnRegistrar.setBounds(324, 29, 89, 23);
+		contentPane.add(btnRegistrar);
 		
 		JScrollPane scrollPane = new JScrollPane();
 		scrollPane.setBounds(10, 171, 414, 143);
@@ -107,7 +107,7 @@ public class FrmManteProd extends JFrame {
 	}
 	
 	void llenacombo() {
-		
+		System.out.println("proceso que llena combo");
 	}
 	
 	void listado() {
